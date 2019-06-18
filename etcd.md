@@ -14,3 +14,16 @@ Brew installs the binaries into /usr/local/Cellar directory
 
 ### Url for homebrew
 https://brew.sh/
+
+### Install etcd using source code
+* Create a folder where the etcd binaries will be copied
+* export  GOPATH="/Users/AgileScale/Documents/asantra1/etcd-go"
+* Install etcd from vendor package 
+* go get -v go.etcd.io/etcd
+* Install etcdctl from vendor package
+* go get -v go.etcd.io/etcd/etcdctl
+* Create symbolic link for the etcd and etcdctl
+* ln -s /Users/AgileScale/Documents/asantra1/etcd-go/bin/etcdctl /usr/local/bin/etcdctl
+* ln -s /Users/AgileScale/Documents/asantra1/etcd-go/bin/etcdctl /usr/local/bin/etcdctl
+
+### Add etcd to systemd 
