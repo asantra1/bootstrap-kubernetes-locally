@@ -81,11 +81,18 @@ Edit the `/etc/default/etcd`
  ### Install kubernetes master components 
  
  - Navigate to the folder `cd /vagrant` and `mkdir kubernetes`
- - 
+ - Execute the following commands
+ ```
+wget https://github.com/kubernetes/kubernetes/releases/download/v1.9.6/kubernetes.tar.gz
+tar xvfz ./kubernetes.tar.gz./kubernetes/cluster/get-kube-binaries.sh
+tar xvfz ./kubernetes/server/kubernetes-server-linux-amd64.tar.gz
+mv ./kubernetes/server/bin/{kube-apiserver,kube-scheduler,kube-controller-manager,kube-proxy}  /usr/bin/
+mv ./kubernetes/client/bin/kubectl /usr/bin/
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTU5MTg2NjYsLTk0NjY0Mjg2OSwzNT
-c2NTUzNTUsMTY0MzAwODU1LC00NTIzMDM1NTcsLTE4NjQxMDA3
-MTYsNzA2MjM1MDUyLDQ5MDUyNzg2NSwtMTAyNDA1NzQzNSwtMj
-UzNjAzNDQ3XX0=
+eyJoaXN0b3J5IjpbMTU3NTMxMjgzOCwtOTQ2NjQyODY5LDM1Nz
+Y1NTM1NSwxNjQzMDA4NTUsLTQ1MjMwMzU1NywtMTg2NDEwMDcx
+Niw3MDYyMzUwNTIsNDkwNTI3ODY1LC0xMDI0MDU3NDM1LC0yNT
+M2MDM0NDddfQ==
 -->
