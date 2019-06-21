@@ -86,12 +86,12 @@ Edit the `/etc/default/etcd`
 wget https://github.com/kubernetes/kubernetes/releases/download/v1.9.6/kubernetes.tar.gz
 tar xvfz ./kubernetes.tar.gz./kubernetes/cluster/get-kube-binaries.sh
 tar xvfz ./kubernetes/server/kubernetes-server-linux-amd64.tar.gz
-mv ./kubernetes/server/bin/{kube-apiserver,kube-scheduler,kube-controller-manager,kube-proxy}  /usr/bin/
+mv ./kubernetes/server/bin/{kube-apiserver,kube-scheduler,kube-controller-manager}  /usr/bin/
 mv ./kubernetes/client/bin/kubectl /usr/bin/
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTMxMjgzOCwtOTQ2NjQyODY5LDM1Nz
+eyJoaXN0b3J5IjpbMTQzMzQwMTk1MiwtOTQ2NjQyODY5LDM1Nz
 Y1NTM1NSwxNjQzMDA4NTUsLTQ1MjMwMzU1NywtMTg2NDEwMDcx
 Niw3MDYyMzUwNTIsNDkwNTI3ODY1LC0xMDI0MDU3NDM1LC0yNT
 M2MDM0NDddfQ==
