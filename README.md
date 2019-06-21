@@ -22,8 +22,8 @@ These are installed in **worker node**
 3. Cert manager
 
 ## Install and boot up cluster locally
-1. Install the binaries locally on Mac as systemd **service**
+1. Install the binaries to Ubuntu Xeniel VM.
 2. Installation will be done with **no tls**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MzYwMzQ0N119
+eyJoaXN0b3J5IjpbOTYzODY2OTAxLC0yNTM2MDM0NDddfQ==
 -->
