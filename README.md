@@ -21,6 +21,9 @@ These are installed in **worker node**
 2. helm
 3. Cert manager
 
-## Install and boot up cluster locallay
+## Install and boot up cluster locally
 1. Install the binaries locally on Mac as systemd **service**
 2. Installation will be done with **no tls**
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTI1MzYwMzQ0N119
+-->
