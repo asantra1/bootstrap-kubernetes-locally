@@ -41,7 +41,8 @@ sudo apt-get update
 [Ectd for Ubuntu](https://docs.openstack.org/install-guide/environment-etcd-ubuntu.html)
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkwNTI3ODY1LC0xMDI0MDU3NDM1LC0yNT
-M2MDM0NDddfQ==
+eyJoaXN0b3J5IjpbOTg0NDYxNDE1LDQ5MDUyNzg2NSwtMTAyND
+A1NzQzNSwtMjUzNjAzNDQ3XX0=
 -->
