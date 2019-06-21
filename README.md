@@ -27,8 +27,10 @@ These are installed in **worker node**
 
 ## Set by step process
 
- - List item
+ - Install docker CE 
+ - [Docker for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce)
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTUzOTUzNzcsLTI1MzYwMzQ0N119
+eyJoaXN0b3J5IjpbLTEwMjQwNTc0MzUsLTI1MzYwMzQ0N119
 -->
