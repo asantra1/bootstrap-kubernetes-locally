@@ -79,9 +79,10 @@ Edit the `/etc/default/etcd`
  ### Install kubernetes master components 
  
  - Navigate to the folder `cd /vagrant` and `mkdir kubernetes`
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0NDk0MTMyLDE2NDMwMDg1NSwtNDUyMz
+eyJoaXN0b3J5IjpbMzU3NjU1MzU1LDE2NDMwMDg1NSwtNDUyMz
 AzNTU3LC0xODY0MTAwNzE2LDcwNjIzNTA1Miw0OTA1Mjc4NjUs
 LTEwMjQwNTc0MzUsLTI1MzYwMzQ0N119
 -->
