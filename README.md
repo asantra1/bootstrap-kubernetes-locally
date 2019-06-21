@@ -43,7 +43,7 @@ Master node has been created through vagrant.
  - `vagrant ssh master`
 
 ### Install docker CE 
-(note that docker is not required for master component, still I have installed this as experimental purpose)
+(note that docker is not required in master node, still I have installed this as experimental purpose)
 
  [Docker for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce)
   ````
@@ -84,7 +84,7 @@ Edit the `/etc/default/etcd`
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTU3Mzc2NiwzNTc2NTUzNTUsMTY0Mz
+eyJoaXN0b3J5IjpbLTk0NjY0Mjg2OSwzNTc2NTUzNTUsMTY0Mz
 AwODU1LC00NTIzMDM1NTcsLTE4NjQxMDA3MTYsNzA2MjM1MDUy
 LDQ5MDUyNzg2NSwtMTAyNDA1NzQzNSwtMjUzNjAzNDQ3XX0=
 -->
