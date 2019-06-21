@@ -54,9 +54,10 @@ sudo apt-get update
     ETCD_LISTEN_PEER_URLS="http://0.0.0.0:2380"
     ETCD_LISTEN_CLIENT_URLS="http://10.9.8.10:2379"
         
+### Enable and start etcd service as systemd
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxNDYxMDU3LDcwNjIzNTA1Miw0OTA1Mj
-c4NjUsLTEwMjQwNTc0MzUsLTI1MzYwMzQ0N119
+eyJoaXN0b3J5IjpbLTE4NjQxMDA3MTYsNzA2MjM1MDUyLDQ5MD
+UyNzg2NSwtMTAyNDA1NzQzNSwtMjUzNjAzNDQ3XX0=
 -->
