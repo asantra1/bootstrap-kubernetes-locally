@@ -58,7 +58,8 @@ Edit the `/etc/default/etcd`
 ### Enable and start etcd service as systemd
 
  1. A good article on systemd services follow the link [systemd link](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
- 2. The service details can be found i`/etc/systemd/system/`
+ 2. The service details can be found at `/etc/systemd/system/`
+ 3. 
 
 
 
@@ -66,7 +67,7 @@ Edit the `/etc/default/etcd`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NjAyNjQyLC00NTIzMDM1NTcsLTE4Nj
+eyJoaXN0b3J5IjpbMTY0MzAwODU1LC00NTIzMDM1NTcsLTE4Nj
 QxMDA3MTYsNzA2MjM1MDUyLDQ5MDUyNzg2NSwtMTAyNDA1NzQz
 NSwtMjUzNjAzNDQ3XX0=
 -->
