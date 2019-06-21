@@ -14,7 +14,7 @@ The following components are installed in **master node**
 These are installed in **worker node**
 1. kubelet
 2. kube proxy
-3. container runtime ( docker)
+3. container run-time ( docker)
 
 ## Add ons
 1. kube dns
@@ -84,7 +84,8 @@ Edit the `/etc/default/etcd`
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NjY0Mjg2OSwzNTc2NTUzNTUsMTY0Mz
-AwODU1LC00NTIzMDM1NTcsLTE4NjQxMDA3MTYsNzA2MjM1MDUy
-LDQ5MDUyNzg2NSwtMTAyNDA1NzQzNSwtMjUzNjAzNDQ3XX0=
+eyJoaXN0b3J5IjpbLTE4NTU5MTg2NjYsLTk0NjY0Mjg2OSwzNT
+c2NTUzNTUsMTY0MzAwODU1LC00NTIzMDM1NTcsLTE4NjQxMDA3
+MTYsNzA2MjM1MDUyLDQ5MDUyNzg2NSwtMTAyNDA1NzQzNSwtMj
+UzNjAzNDQ3XX0=
 -->
