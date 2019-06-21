@@ -41,7 +41,6 @@ Master node has been created through vagrant.
       
 
  - `vagrant ssh master`
- - Navigate to the folder /vagrant
 
 ### Install docker CE 
  [Docker for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce)
@@ -73,19 +72,16 @@ Edit the `/etc/default/etcd`
         
 ### Enable and start etcd service as systemd
 
- 1. A good article on systemd services follow the link [systemd link](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
- 2. The service details can be found at `/etc/systemd/system/`
- 3. One can test etcd using the command etcdctl. `etcdctl set foo bar; etcdctl get bar`
+ - A good article on systemd services follow the link [systemd link](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
+ - The service details can be found at `/etc/systemd/system/`
+ - One can test etcd using the command etcdctl. `etcdctl set foo bar; etcdctl get bar`
  
  ### Install kubernetes master components 
-
-
-
-
-
+ 
+ - Navigate to the folder `cd /vagrant` and `mkdir kubernetes`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ1NDg3MTIsMTY0MzAwODU1LC00NT
-IzMDM1NTcsLTE4NjQxMDA3MTYsNzA2MjM1MDUyLDQ5MDUyNzg2
-NSwtMTAyNDA1NzQzNSwtMjUzNjAzNDQ3XX0=
+eyJoaXN0b3J5IjpbODA0NDk0MTMyLDE2NDMwMDg1NSwtNDUyMz
+AzNTU3LC0xODY0MTAwNzE2LDcwNjIzNTA1Miw0OTA1Mjc4NjUs
+LTEwMjQwNTc0MzUsLTI1MzYwMzQ0N119
 -->
