@@ -56,14 +56,17 @@ Edit the `/etc/default/etcd`
     ETCD_LISTEN_CLIENT_URLS="http://10.9.8.10:2379"
         
 ### Enable and start etcd service as systemd
-A good article on systemd services
-[Systemd link](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
+
+ 1. A good article on systemd services follow the link [systemd link](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
+ 2. The service details can be found i`/etc/systemd/system/`
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzU4MTAzLC00NTIzMDM1NTcsLTE4Nj
+eyJoaXN0b3J5IjpbMTY2NjAyNjQyLC00NTIzMDM1NTcsLTE4Nj
 QxMDA3MTYsNzA2MjM1MDUyLDQ5MDUyNzg2NSwtMTAyNDA1NzQz
 NSwtMjUzNjAzNDQ3XX0=
 -->
