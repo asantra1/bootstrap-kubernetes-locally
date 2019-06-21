@@ -23,7 +23,12 @@ These are installed in **worker node**
 
 ## Install and boot up cluster locally
 1. Install the binaries to Ubuntu Xeniel VM.
-2. Installation will be done with **no tls**
+2. Installation will not use any **secure communication** 
+
+## Set by step process
+
+ - List item
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzODY2OTAxLC0yNTM2MDM0NDddfQ==
+eyJoaXN0b3J5IjpbLTE4OTUzOTUzNzcsLTI1MzYwMzQ0N119
 -->
