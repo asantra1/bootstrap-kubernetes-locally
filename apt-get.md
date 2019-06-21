@@ -16,8 +16,7 @@ The following links says details about the apt-get. Some important information h
 > apt-key is a program that is used to manage a keyring of gpg keys for secure apt. The keyring is kept in the file `/etc/apt/trusted.gpg` (not to be confused with the related but not very interesting `/etc/apt/trustdb.gpg`). apt-key can be used to show the keys in the keyring, and to add or remove a key.
 > 
 > Each time you add another apt repository to `/etc/apt/sources.list`, you'll also have to give apt its key if you want apt to trust it. Once you have obtained the key, you can validate it by checking the key's fingerprint and then signing this public key with your private key. You can then add the key to apt's keyring with `apt-key add <key>`
-> 
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjUxOTY4OTQsLTE3NDM0NjQ0NjldfQ
-==
+eyJoaXN0b3J5IjpbMTI1MTA1MzMyOCwtMTc0MzQ2NDQ2OV19
 -->
