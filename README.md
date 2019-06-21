@@ -42,7 +42,8 @@ sudo apt-get update
 
     apt install etcd 
     etcd # just check etcd has been installed correctly
-    Edit the `/etc/default/etcd`
+Edit the `/etc/default/etcd`
+
     ETCD_NAME="controller"
     
     ETCD_DATA_DIR="/var/lib/etcd"
@@ -59,8 +60,10 @@ A good article on systemd services
 [Systemd link](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjMwMzU1NywtMTg2NDEwMDcxNiw3MD
-YyMzUwNTIsNDkwNTI3ODY1LC0xMDI0MDU3NDM1LC0yNTM2MDM0
-NDddfQ==
+eyJoaXN0b3J5IjpbLTY4MzU4MTAzLC00NTIzMDM1NTcsLTE4Nj
+QxMDA3MTYsNzA2MjM1MDUyLDQ5MDUyNzg2NSwtMTAyNDA1NzQz
+NSwtMjUzNjAzNDQ3XX0=
 -->
