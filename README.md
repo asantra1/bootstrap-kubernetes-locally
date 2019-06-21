@@ -56,10 +56,11 @@ sudo apt-get update
         
 ### Enable and start etcd service as systemd
 A good article on systemd services
-[System](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
+[Systemd link](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzI3MDQ2NywtMTg2NDEwMDcxNiw3MD
+eyJoaXN0b3J5IjpbLTQ1MjMwMzU1NywtMTg2NDEwMDcxNiw3MD
 YyMzUwNTIsNDkwNTI3ODY1LC0xMDI0MDU3NDM1LC0yNTM2MDM0
 NDddfQ==
 -->
