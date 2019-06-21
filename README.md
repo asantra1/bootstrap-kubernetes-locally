@@ -59,7 +59,7 @@ Edit the `/etc/default/etcd`
 
  1. A good article on systemd services follow the link [systemd link](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
  2. The service details can be found at `/etc/systemd/system/`
- 3. 
+ 3. One can test etcd using the command etcdcl. 
 
 
 
@@ -67,7 +67,7 @@ Edit the `/etc/default/etcd`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzAwODU1LC00NTIzMDM1NTcsLTE4Nj
-QxMDA3MTYsNzA2MjM1MDUyLDQ5MDUyNzg2NSwtMTAyNDA1NzQz
-NSwtMjUzNjAzNDQ3XX0=
+eyJoaXN0b3J5IjpbLTIyODIxNDQ5NiwxNjQzMDA4NTUsLTQ1Mj
+MwMzU1NywtMTg2NDEwMDcxNiw3MDYyMzUwNTIsNDkwNTI3ODY1
+LC0xMDI0MDU3NDM1LC0yNTM2MDM0NDddfQ==
 -->
