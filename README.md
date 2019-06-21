@@ -55,9 +55,11 @@ sudo apt-get update
     ETCD_LISTEN_CLIENT_URLS="http://10.9.8.10:2379"
         
 ### Enable and start etcd service as systemd
-
+A good article on systemd services
+[System](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQxMDA3MTYsNzA2MjM1MDUyLDQ5MD
-UyNzg2NSwtMTAyNDA1NzQzNSwtMjUzNjAzNDQ3XX0=
+eyJoaXN0b3J5IjpbMTY3NzI3MDQ2NywtMTg2NDEwMDcxNiw3MD
+YyMzUwNTIsNDkwNTI3ODY1LC0xMDI0MDU3NDM1LC0yNTM2MDM0
+NDddfQ==
 -->
