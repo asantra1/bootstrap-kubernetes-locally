@@ -28,7 +28,17 @@ These are installed in **worker node**
 ## Set by step process
 
 ### First ssh to master node
-Master node has been created through vagrant. 
+
+ - Master node has been created through vagrant. 
+
+    config.vm.box = "ubuntu/xenial64"
+      config.vm.define "master" do |master|
+          master.vm.network "private_network", ip: "10.9.8.10"
+          master.vm.hostname = "master"
+      end
+      
+
+ - List 
 
 ### Install docker CE 
  [Docker for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce)
@@ -72,7 +82,7 @@ Edit the `/etc/default/etcd`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU3MjE5MzMsMTY0MzAwODU1LC00NT
+eyJoaXN0b3J5IjpbLTEzNjMyNTQ5MTcsMTY0MzAwODU1LC00NT
 IzMDM1NTcsLTE4NjQxMDA3MTYsNzA2MjM1MDUyLDQ5MDUyNzg2
 NSwtMTAyNDA1NzQzNSwtMjUzNjAzNDQ3XX0=
 -->
