@@ -43,10 +43,20 @@ sudo apt-get update
     apt install etcd 
     etcd # just check etcd has been installed correctly
     Edit the `/etc/default/etcd`
+    ETCD_NAME="controller"
     
+    ETCD_DATA_DIR="/var/lib/etcd"
+    ETCD_INITIAL_CLUSTER_STATE="new"
+    ETCD_INITIAL_CLUSTER_TOKEN="etcd-cluster-01"
+    ETCD_INITIAL_CLUSTER="controller=http://10.9.8.10:2380"
+    ETCD_INITIAL_ADVERTISE_PEER_URLS="http://10.9.8.10:2380"
+    ETCD_ADVERTISE_CLIENT_URLS="http://10.9.8.10:2379"
+    ETCD_LISTEN_PEER_URLS="http://0.0.0.0:2380"
+    ETCD_LISTEN_CLIENT_URLS="http://10.9.8.10:2379"
+        
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2MjM1MDUyLDQ5MDUyNzg2NSwtMTAyND
-A1NzQzNSwtMjUzNjAzNDQ3XX0=
+eyJoaXN0b3J5IjpbODAxNDYxMDU3LDcwNjIzNTA1Miw0OTA1Mj
+c4NjUsLTEwMjQwNTc0MzUsLTI1MzYwMzQ0N119
 -->
