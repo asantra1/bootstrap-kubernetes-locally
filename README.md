@@ -59,7 +59,9 @@ Edit the `/etc/default/etcd`
 
  1. A good article on systemd services follow the link [systemd link](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
  2. The service details can be found at `/etc/systemd/system/`
- 3. One can test etcd using the command etcdcl. 
+ 3. One can test etcd using the command etcdctl. `etcdctl set foo bar; etcdctl get bar`
+ 
+ ### Install kubernetes 
 
 
 
@@ -67,7 +69,7 @@ Edit the `/etc/default/etcd`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODIxNDQ5NiwxNjQzMDA4NTUsLTQ1Mj
-MwMzU1NywtMTg2NDEwMDcxNiw3MDYyMzUwNTIsNDkwNTI3ODY1
-LC0xMDI0MDU3NDM1LC0yNTM2MDM0NDddfQ==
+eyJoaXN0b3J5IjpbMjQ4NjM1NzgzLDE2NDMwMDg1NSwtNDUyMz
+AzNTU3LC0xODY0MTAwNzE2LDcwNjIzNTA1Miw0OTA1Mjc4NjUs
+LTEwMjQwNTc0MzUsLTI1MzYwMzQ0N119
 -->
