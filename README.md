@@ -36,11 +36,12 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt-get update
 ````
 
-### 
+### Install etcd
 
+[Ectd for Ubuntu](https://docs.openstack.org/install-guide/environment-etcd-ubuntu.html)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODg4MTA2NiwtMTAyNDA1NzQzNSwtMj
-UzNjAzNDQ3XX0=
+eyJoaXN0b3J5IjpbNDkwNTI3ODY1LC0xMDI0MDU3NDM1LC0yNT
+M2MDM0NDddfQ==
 -->
