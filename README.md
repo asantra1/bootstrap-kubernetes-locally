@@ -27,10 +27,20 @@ These are installed in **worker node**
 
 ## Set by step process
 
- - Install docker CE 
- - [Docker for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce)
- - 
+### Install docker CE 
+ [Docker for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce)
+  ````
+sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable"
+sudo apt-get update
+````
+
+### 
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjQwNTc0MzUsLTI1MzYwMzQ0N119
+eyJoaXN0b3J5IjpbLTYxODg4MTA2NiwtMTAyNDA1NzQzNSwtMj
+UzNjAzNDQ3XX0=
 -->
