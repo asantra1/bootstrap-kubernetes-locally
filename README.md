@@ -27,6 +27,9 @@ These are installed in **worker node**
 
 ## Set by step process
 
+### First ssh to master node
+Master node has been created through vagrant. 
+
 ### Install docker CE 
  [Docker for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce)
   ````
@@ -61,7 +64,7 @@ Edit the `/etc/default/etcd`
  2. The service details can be found at `/etc/systemd/system/`
  3. One can test etcd using the command etcdctl. `etcdctl set foo bar; etcdctl get bar`
  
- ### Install kubernetes 
+ ### Install kubernetes master components 
 
 
 
@@ -69,7 +72,7 @@ Edit the `/etc/default/etcd`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4NjM1NzgzLDE2NDMwMDg1NSwtNDUyMz
-AzNTU3LC0xODY0MTAwNzE2LDcwNjIzNTA1Miw0OTA1Mjc4NjUs
-LTEwMjQwNTc0MzUsLTI1MzYwMzQ0N119
+eyJoaXN0b3J5IjpbLTE0NTU3MjE5MzMsMTY0MzAwODU1LC00NT
+IzMDM1NTcsLTE4NjQxMDA3MTYsNzA2MjM1MDUyLDQ5MDUyNzg2
+NSwtMTAyNDA1NzQzNSwtMjUzNjAzNDQ3XX0=
 -->
