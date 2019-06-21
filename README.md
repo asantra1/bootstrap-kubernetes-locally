@@ -40,9 +40,11 @@ sudo apt-get update
 
 [Ectd for Ubuntu](https://docs.openstack.org/install-guide/environment-etcd-ubuntu.html)
 
-
+    apt install etcd
+    etct # just check etcd has been installed correctly
+    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0NDYxNDE1LDQ5MDUyNzg2NSwtMTAyND
-A1NzQzNSwtMjUzNjAzNDQ3XX0=
+eyJoaXN0b3J5IjpbLTc5MzY1NzM1NSw0OTA1Mjc4NjUsLTEwMj
+QwNTc0MzUsLTI1MzYwMzQ0N119
 -->
