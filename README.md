@@ -92,14 +92,17 @@ mv ./kubernetes/client/bin/kubectl /usr/bin/
  - change the config `/etc/kubernetes/config` and `/etc/kubernetes/apiserver`. Those files are added.
  - Enable and run kube-apiserver
  ```
+ 
+ - Create the folder below so that kube-apiserver 
+
 systemctl enable kube-apiserver
 systemctl start kube-apiserver
 ```
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3NDQ4ODMzLDE0MzM0MDE5NTIsLTk0Nj
-Y0Mjg2OSwzNTc2NTUzNTUsMTY0MzAwODU1LC00NTIzMDM1NTcs
-LTE4NjQxMDA3MTYsNzA2MjM1MDUyLDQ5MDUyNzg2NSwtMTAyND
-A1NzQzNSwtMjUzNjAzNDQ3XX0=
+eyJoaXN0b3J5IjpbLTE1MjkzOTIyOTAsMjU3NDQ4ODMzLDE0Mz
+M0MDE5NTIsLTk0NjY0Mjg2OSwzNTc2NTUzNTUsMTY0MzAwODU1
+LC00NTIzMDM1NTcsLTE4NjQxMDA3MTYsNzA2MjM1MDUyLDQ5MD
+UyNzg2NSwtMTAyNDA1NzQzNSwtMjUzNjAzNDQ3XX0=
 -->
