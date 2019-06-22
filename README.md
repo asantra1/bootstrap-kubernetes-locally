@@ -91,6 +91,8 @@ mv ./kubernetes/client/bin/kubectl /usr/bin/
 ```
  - change the config `/etc/kubernetes/config` and `/etc/kubernetes/apiserver`. Those files are added.
  -  Create the folder where kube-apiserver put the self signed sertificate
+ - makdir 
+ - Give permission to 
  - Enable and run kube-apiserver
  ```
 
@@ -100,8 +102,8 @@ systemctl start kube-apiserver
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTI5ODM0NTgsMjU3NDQ4ODMzLDE0Mz
-M0MDE5NTIsLTk0NjY0Mjg2OSwzNTc2NTUzNTUsMTY0MzAwODU1
-LC00NTIzMDM1NTcsLTE4NjQxMDA3MTYsNzA2MjM1MDUyLDQ5MD
-UyNzg2NSwtMTAyNDA1NzQzNSwtMjUzNjAzNDQ3XX0=
+eyJoaXN0b3J5IjpbMTY0NjgwMTY0MSwyNTc0NDg4MzMsMTQzMz
+QwMTk1MiwtOTQ2NjQyODY5LDM1NzY1NTM1NSwxNjQzMDA4NTUs
+LTQ1MjMwMzU1NywtMTg2NDEwMDcxNiw3MDYyMzUwNTIsNDkwNT
+I3ODY1LC0xMDI0MDU3NDM1LC0yNTM2MDM0NDddfQ==
 -->
