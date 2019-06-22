@@ -90,12 +90,16 @@ mv ./kubernetes/server/bin/{kube-apiserver,kube-scheduler,kube-controller-manage
 mv ./kubernetes/client/bin/kubectl /usr/bin/
 ```
  - change the config `/etc/kubernetes/config` and `/etc/kubernetes/apiserver`. Those files are added.
- - start kubernetes api server
+ - Enable and run kube-apiserver
+ ```
+systemctl enable kube-apiserver
+systemctl start kube-apiserver
+```
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTY1MjE0MzcsMTQzMzQwMTk1MiwtOT
-Q2NjQyODY5LDM1NzY1NTM1NSwxNjQzMDA4NTUsLTQ1MjMwMzU1
-NywtMTg2NDEwMDcxNiw3MDYyMzUwNTIsNDkwNTI3ODY1LC0xMD
-I0MDU3NDM1LC0yNTM2MDM0NDddfQ==
+eyJoaXN0b3J5IjpbMjU3NDQ4ODMzLDE0MzM0MDE5NTIsLTk0Nj
+Y0Mjg2OSwzNTc2NTUzNTUsMTY0MzAwODU1LC00NTIzMDM1NTcs
+LTE4NjQxMDA3MTYsNzA2MjM1MDUyLDQ5MDUyNzg2NSwtMTAyND
+A1NzQzNSwtMjUzNjAzNDQ3XX0=
 -->
